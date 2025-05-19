@@ -40,8 +40,10 @@ we can read and understand.
 
 ## Current outreach
 
-* [workshops](https://www.ub.uni-leipzig.de/service/workshops-und-online-tutorials) for students, researchers
 * meetups for [general public](https://www.ub.uni-leipzig.de/service/workshops-und-online-tutorials/schulungen/ki-stammtisch), and internal staff
+* [workshops](https://www.ub.uni-leipzig.de/service/workshops-und-online-tutorials) for students, researchers
+
+![](static/screenshot-2025-05-19-160823-workshops-ubl.png)
 
 ## Exploratory use cases
 
