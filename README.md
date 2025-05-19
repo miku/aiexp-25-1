@@ -43,7 +43,7 @@ reading research that would refer to this one paper alone.
 
 > A primary origin of over-hyped AI capabilities is the fact that many AI
 > systems are developed in sterile R&D environments and then deployed in more
-> complex real-world set- tings without appropriate testing or oversight. --
+> complex real-world settings without appropriate testing or oversight. --
 > [Misrepresented Technological Solutions in Imagined Futures: The Origins and
 > Dangers of AI Hype in the Research
 > Community](https://arxiv.org/pdf/2408.15244) (2024)
@@ -53,6 +53,34 @@ FF.
 > Designing effective and robust benchmark data sets for AI models is a
 > challenging task, and mischaracterizing what a benchmark is designed to do is
 > a significant contributor to AI hype.
+
+See also: [benchmarks](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/)
+
+> To address this issue, we introduce Chatbot Arena, an open plat-
+form for evaluating LLMs based on human pref- erences. Our methodology employs
+a pairwise comparison approach and leverages input from a diverse user base
+through crowdsourcing -- [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/pdf/2403.04132)
+
+## Context switch
+
+![](static/UB.jpg)
+
+> The structure is designated Archive 7, a pre-Collapse cultural repository
+> exhibiting a high degree of structural integrity despite its age. The primary
+> construction material appears to be a calcium carbonate composite, likely
+> marble, reinforced with an unknown polymer matrix exhibiting minimal
+> degradation after approximately three centuries of atmospheric exposure. The
+> internal volume is maximized through a multi-level arrangement accessed via a
+> central staircase constructed of a ferrous alloy exhibiting moderate
+> oxidation. Illumination is provided by both integrated luminescent panels and
+> localized point-source emitters, suggesting a tiered power management system.
+> The presence of organic lifeforms – designated ‘observers’ – indicates the
+> facility remains partially operational, though their purpose within the
+> archive is currently undetermined. Atmospheric analysis reveals a stable,
+> breathable composition, though trace amounts of particulate matter suggest
+> limited environmental control. Further investigation is required to ascertain
+> the nature of the data stored within and the functionality of the remaining
+> systems. -- [Gemma 3 27B Instruct, via [GWDG](https://arxiv.org/pdf/2407.00110)]
 
 ## Current use cases
 
