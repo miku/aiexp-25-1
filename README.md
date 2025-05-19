@@ -65,8 +65,6 @@ through crowdsourcing -- [Chatbot Arena: An Open Platform for Evaluating LLMs by
 
 ![](static/UB.jpg)
 
-> Here's a description of the image, aiming for that specific blend of styles:
-
 The Atrium processed data in a manner not unlike the human nervous system – a
 constant flow of bodies ascending and descending the twin staircases, each a
 vector of intent, though the intent itself remained stubbornly unreadable. The
