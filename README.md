@@ -25,6 +25,33 @@ NYT model:
 > said early that > forms , ” said Bernard J. Marco Jr.  of Pennsylvania ,
 > was monitoring New York
 
+## The race and hype
+
+![](static/screenshot-2025-05-19-161147-attention-is-all-you-need.png)
+
+The paper that ignited the current LLM developments was published in 2017
+(2017-06-12, 2899 days ago) and has as of 2025-05-19 180523 citations accroding
+to [Google
+Scholar](https://scholar.google.com/scholar?q=Attention+is+all+you+need). On
+average 62 citations of this paper per day.
+
+If you sleep 8 hours a day and spend the rest of your day reading one paper per
+hour (so 16 per day), you would spend the next **31 years** doing nothing that
+reading research that would refer to this one paper alone.
+
+> A primary origin of over-hyped AI capabilities is the fact that many AI
+> systems are developed in sterile R&D environments and then deployed in more
+> complex real-world set- tings without appropriate testing or oversight. --
+> [Misrepresented Technological Solutions in Imagined Futures: The Origins and
+> Dangers of AI Hype in the Research
+> Community](https://arxiv.org/pdf/2408.15244) (2024)
+
+FF.
+
+> Designing effective and robust benchmark data sets for AI models is a
+> challenging task, and mischaracterizing what a benchmark is designed to do is
+> a significant contributor to AI hype.
+
 ## Current use cases
 
 * [x] grammar checks, text critique ("human writing, machine feedback")
@@ -58,3 +85,5 @@ we can read and understand.
 * AI assisted search research tools and interfaces
 * AI use of publishers, cf. [Publishers are selling papers to train AIs — and making millions of dollars](https://www.nature.com/articles/d41586-024-04018-5), $10M, $23M, ...
 * open weights models hosted by public institutions for general use
+
+
