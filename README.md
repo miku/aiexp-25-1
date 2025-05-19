@@ -39,6 +39,8 @@ If you sleep 8 hours a day and spend the rest of your day reading one paper per
 hour (so 16 per day), you would spend the next **31 years** doing nothing that
 reading research that would refer to this one paper alone.
 
+![Nvidia Stock Price Chart from Wikimedia](NVIDIA_Stock_Price.webp.png)
+
 > A primary origin of over-hyped AI capabilities is the fact that many AI
 > systems are developed in sterile R&D environments and then deployed in more
 > complex real-world set- tings without appropriate testing or oversight. --
@@ -87,3 +89,6 @@ we can read and understand.
 * open weights models hosted by public institutions for general use
 
 
+## Resources
+
+* [https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/NVIDIA_Stock_Price.webp/960px-NVIDIA_Stock_Price.webp.png](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/NVIDIA_Stock_Price.webp/960px-NVIDIA_Stock_Price.webp.png)
