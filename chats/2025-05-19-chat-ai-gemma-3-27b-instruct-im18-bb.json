@@ -1,0 +1,58 @@
+[
+  {
+    "Title": "Die unmarische Revolution 1956",
+    "x_min": 50,
+    "y_min": 100,
+    "x_max": 200,
+    "y_max": 350
+  },
+  {
+    "Title": "Street Voices",
+    "x_min": 220,
+    "y_min": 100,
+    "x_max": 350,
+    "y_max": 350
+  },
+  {
+    "Title": "Geheimdiplomatie",
+    "x_min": 370,
+    "y_min": 100,
+    "x_max": 520,
+    "y_max": 350
+  },
+  {
+    "Title": "Das Landungsgeswesen in Deutschland seit 1900",
+    "x_min": 540,
+    "y_min": 100,
+    "x_max": 680,
+    "y_max": 350
+  },
+  {
+    "Title": "Entstehung der Arbeiterbewegung",
+    "x_min": 700,
+    "y_min": 100,
+    "x_max": 850,
+    "y_max": 350
+  },
+  {
+    "Title": "Ernst Nolte Geschichtsdenken im 20. Jahrhundert",
+    "x_min": 870,
+    "y_min": 100,
+    "x_max": 1000,
+    "y_max": 350
+  },
+  {
+    "Title": "Schüler Duden Biologie",
+    "x_min": 50,
+    "y_min": 370,
+    "x_max": 200,
+    "y_max": 600
+  },
+  {
+    "Title": "Tiere",
+    "x_min": 220,
+    "y_min": 370,
+    "x_max": 350,
+    "y_max": 600
+  }
+]
