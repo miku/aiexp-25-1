@@ -25,6 +25,10 @@ NYT model:
 > said early that > forms , ” said Bernard J. Marco Jr.  of Pennsylvania ,
 > was monitoring New York
 
+And going back to 1989:
+
+[![](static/computer-recreations-markov-page-1-50.png)](https://archive.org/details/ComputerRecreationsMarkovChainer)
+
 ## The race and hype
 
 ![](static/screenshot-2025-05-19-161147-attention-is-all-you-need.png)
@@ -38,8 +42,6 @@ average 62 citations of this paper per day.
 If you sleep 8 hours a day and spend the rest of your day reading one paper per
 hour (so 16 per day), you would spend the next **31 years** doing nothing that
 reading research that would refer to this one paper alone.
-
-![Nvidia Stock Price Chart from Wikimedia](static/NVIDIA_Stock_Price.webp.png)
 
 > A primary origin of over-hyped AI capabilities is the fact that many AI
 > systems are developed in sterile R&D environments and then deployed in more
@@ -61,23 +63,39 @@ form for evaluating LLMs based on human pref- erences. Our methodology employs
 a pairwise comparison approach and leverages input from a diverse user base
 through crowdsourcing -- [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/pdf/2403.04132)
 
+Final question, do you remember [Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085)?
+
+> Information overload is a major obstacle to scientific progress. The
+> explosive growth in scientific literature and data has made it ever harder to
+> discover useful insights in a large mass of information. Today scientific
+> knowledge is accessed through search engines, but they are unable to organize
+> scientific knowledge alone. In this paper we introduce Galactica: a large
+> language model that can store, combine and reason about scientific knowledge.
+> We train on a large scientific corpus of papers, reference material,
+> knowledge bases and many other sources.
+
+The paper dates from 2022-11-16, [two weeks before](https://en.wikipedia.org/wiki/ChatGPT) the ChatGPT preview.
+
+> Galactica is a large language model for science, trained on 48 million
+> examples of scientific articles, websites, textbooks, lecture notes, and
+> encyclopedias. Meta promoted its model as a shortcut for researchers and
+> students. In the company’s words, Galactica “can summarize academic papers,
+> solve math problems, generate Wiki articles, write scientific code, annotate
+> molecules and proteins, and more.” -- [Why Meta’s latest large language model
+> survived only three days
+> online](https://www.technologyreview.com/2022/11/18/1063487/meta-large-language-model-ai-only-survived-three-days-gpt-3-science/)
+> (2022-11-18); cf. [Meta Galactica
+> eingestellt](https://www.zdnet.de/88405189/meta-galactica-eingestellt/)
+
 ## Context switch
 
 ![](static/UB.jpg)
 
 The Atrium processed data in a manner not unlike the human nervous system – a
 constant flow of bodies ascending and descending the twin staircases, each a
-vector of intent, though the intent itself remained stubbornly unreadable. The
-polished marble floors reflected the diffused light from the grid above, a
-simulation of daylight in a city that hadn’t seen a natural sunrise in decades.
-The architecture, a deliberate echo of a forgotten civic idealism, was
-maintained by automated systems, its purpose now largely ceremonial.
-Individuals moved through the space, not *to* anywhere specific, but *within*
-the space, their trajectories dictated by subtle shifts in the Atrium’s
-internal climate control, a barely perceptible pressure guiding them toward the
-information kiosks or the shadowed alcoves where whispers of obsolete protocols
-still lingered.  It was a holding pattern, a beautiful, sterile waiting room
-for a process no one understood anymore. -- [[Gemma-3-27B-Instruct](https://arxiv.org/pdf/2503.19786), via [GWDG](https://arxiv.org/pdf/2407.00110)]
+vector of intent, though the intent itself remained stubbornly unreadable.
+[...] -- [[Gemma-3-27B-Instruct](https://arxiv.org/pdf/2503.19786), via
+[GWDG](https://arxiv.org/pdf/2407.00110)]
 
 ## Current use cases
 
@@ -94,8 +112,8 @@ we can read and understand.
 
 ## Current outreach
 
-* meetups for [general public](https://www.ub.uni-leipzig.de/service/workshops-und-online-tutorials/schulungen/ki-stammtisch), and internal staff
-* [workshops](https://www.ub.uni-leipzig.de/service/workshops-und-online-tutorials) for students, researchers
+* [x] meetups for [broader audience](https://www.ub.uni-leipzig.de/service/workshops-und-online-tutorials/schulungen/ki-stammtisch), and staff
+* [x] [workshops](https://www.ub.uni-leipzig.de/service/workshops-und-online-tutorials) for students, researchers
 
 ![](static/screenshot-2025-05-19-160823-workshops-ubl.png)
 
@@ -113,7 +131,39 @@ we can read and understand.
 * AI use of publishers, cf. [Publishers are selling papers to train AIs — and making millions of dollars](https://www.nature.com/articles/d41586-024-04018-5), $10M, $23M, ...
 * open weights models hosted by public institutions for general use
 
+## Exploratory: document parsing
+
+* preparing text documents to feed into LLM became a major problem
+* toolkits existed before, e.g. [Apache Tika](https://tika.apache.org/)
+
+## Ideas
+
+### Log your prompts and conversations
+
+* keep a log of your conversations, as it is not clear yet, what prompt works best (for which task, model, version)
+
+> Prompt engineering is the **art** of asking the right question to get the
+> best output from an LLM. It enables direct interaction with the LLM using
+> only plain language prompts.
+
+> In the past, working with machine learning models typically required deep
+> knowledge of datasets, statistics, and modeling techniques. Today, LLMs can
+> be "programmed" in English, as well as other languages. -- [Prompt Engineering for Generative AI](https://developers.google.com/machine-learning/resources/prompt-eng)
+
+You can export your conversations with various browser extensions or use a
+desktop client application, e.g. open source
+[ChatBox](https://chatboxai.app/en), [LM studio](https://lmstudio.ai/), ...
+
+> Q: What application do you use?
+
+## Future Tasks
+
+### Custom Benchmarks
+
+* in order to understand and compare model performance, one would need to have **benchmarks**, that are specific to our concrete tasks
+* there are many existing benchmarks, see [here](https://github.com/leobeeson/llm_benchmarks), and [here](https://www.evidentlyai.com/llm-evaluation-benchmarks-datasets)
 
 ## Resources
 
 * [https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/NVIDIA_Stock_Price.webp/960px-NVIDIA_Stock_Price.webp.png](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/NVIDIA_Stock_Price.webp/960px-NVIDIA_Stock_Price.webp.png)
+
