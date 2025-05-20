@@ -114,6 +114,15 @@ we can read and understand.
 
 Similar to: [Bibliotheken und KI](https://bibliotheksportal.de/ressourcen/digitale-services/bibliotheken-und-ki/)
 
+TIL: Iterationskompetenz
+
+> Iterationskompetenz als Schlüsselkompetenz im Zeitalter von KI [...]
+
+> Iterationskompetenz beschreibt den sich wiederholenden Prozess von Eingabe
+> und Ergebnisabgleich, mit dem Ziel ein gutes Endergebnis zu erzeugen. Im
+> Wiederholprozess verändert, verfeinert und definiert sich die erneute Eingabe
+> anhand des vorangegangenen Ergebnisses.
+
 ## Current outreach
 
 * [x] meetups for [broader audience](https://www.ub.uni-leipzig.de/service/workshops-und-online-tutorials/schulungen/ki-stammtisch), and staff
@@ -158,7 +167,14 @@ Latest feature, added zstd support for [metha](https://github.com/ubleipzig/meth
 
 ## Ex: structured data extraction
 
-Example parsing references from raw strings using local models: [unstructured](https://github.com/miku/localmodels/tree/main/tasks/unstructured)
+* example parsing references from raw strings using local models: [unstructured](https://github.com/miku/localmodels/tree/main/tasks/unstructured)
+* example GROBID ML based structured text extraction
+
+![](static/core_infrastructure-768x538.png)
+
+Image from: [CORE](https://blog.core.ac.uk/2023/07/17/core-grobid-structured-text-from-34-million-scientific-documents-and-counting/)
+
+A similar approach we use for [Internet Archive Scholar](https://scholar.archive.org)
 
 ## Ex: library as dataset curator
 
