@@ -43,6 +43,8 @@ If you sleep 8 hours a day and spend the rest of your day reading one paper per
 hour (so 16 per day), you would spend the next **31 years** doing nothing that
 reading research that would refer to this one paper alone.
 
+### Where does all the hype come from?
+
 > A primary origin of over-hyped AI capabilities is the fact that many AI
 > systems are developed in sterile R&D environments and then deployed in more
 > complex real-world settings without appropriate testing or oversight. --
@@ -63,7 +65,7 @@ form for evaluating LLMs based on human pref- erences. Our methodology employs
 a pairwise comparison approach and leverages input from a diverse user base
 through crowdsourcing -- [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/pdf/2403.04132)
 
-![](static/screenshot-2025-05-20-093326-chatbot-arena-ub.png)
+[![](static/screenshot-2025-05-20-093326-chatbot-arena-ub.png)](https://lmarena.ai/)
 
 Final question, do you remember [Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085)?
 
