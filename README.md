@@ -167,14 +167,121 @@ Latest feature, added zstd support for [metha](https://github.com/ubleipzig/meth
 
 ## Ex: structured data extraction
 
+### Unstructured references
+
 * example parsing references from raw strings using local models: [unstructured](https://github.com/miku/localmodels/tree/main/tasks/unstructured)
 * example GROBID ML based structured text extraction
+
+### PDF metadata
 
 ![](static/core_infrastructure-768x538.png)
 
 Image from: [CORE](https://blog.core.ac.uk/2023/07/17/core-grobid-structured-text-from-34-million-scientific-documents-and-counting/)
 
 A similar approach we use for [Internet Archive Scholar](https://scholar.archive.org)
+
+### Random images
+
+* given these webcam images of a book, create a MARC record
+
+![](static/landwirtschaft-ddr/2025-05-15-123901.jpg)
+![](static/landwirtschaft-ddr/2025-05-15-123925.jpg)
+
+```
+=001  1234567890
+=008  190411s1996    gw     b    001    ger d
+=010  ##$a978-3-86533-XXX-X
+=020  ##$a3-86533-XXX-X
+=040  ##$aDE$bger$cDE
+=080  00$a331.709438$d20
+=100  1#$aBichler, Hans
+=245  10$aLandwirtschaft in der DDR$h[Text]$cvon Hans Bichler und Clemens Szamatolski
+=260  ##$a[Place of publication]$b[Publisher]$c1996
+=300  ##$a[Number of pages]$bIll.$c21 cm
+=500  ##$aZum Geleit von Rolf Heyen
+=504  ##$aIncludes bibliographical references and index
+=650  0#$aAgriculture$xGermany, East
+=650  0#$aAgricultural policy$xGermany, East
+=700  1#$aSzamatolski, Clemens
+=700  1#$aHeyen, Rolf
+=856  4#$u[URL of online resource, if available]
+```
+
+### Image to Metadata
+
+![](static/om/IMG_0018.JPG)
+
+```json
+[
+  {
+    "title": "Die Februarische Revolution 1956",
+    "author": null,
+    "library_id": "01 A -2002- 9812"
+  },
+  {
+    "title": "Die Februarische Revolution 1956",
+    "author": null,
+    "library_id": "01 A -2002- 9812 +1"
+  },
+  {
+    "title": "Beijing Street Voices",
+    "author": "S. G. Goodman",
+    "library_id": "01 A -2002- 9817"
+  },
+  {
+    "title": "Völker hört die Signale",
+    "author": "Wolfgang Leonhard",
+    "library_id": null
+  },
+  {
+    "title": "Die Päste und die Kommunisten",
+    "author": "Jakob Stehle",
+    "library_id": "01 A -2002- 9818"
+  },
+  {
+    "title": "Das Landungswesen in Deutschland 1900",
+    "author": "Rudolf Krüger",
+    "library_id": "01 A -2002- 9820"
+  },
+  {
+    "title": "ENTSTEHUNG DER ARBEITERBewegung",
+    "author": null,
+    "library_id": "AS 63"
+  },
+  {
+    "title": "Einführung in die Sozialpsychologie",
+    "author": "Linzgren",
+    "library_id": "01 A -2002- 9823"
+  },
+  {
+    "title": "Atti del Terzo Congresso Internazionale di Epigrafia Greca e Latina",
+    "author": null,
+    "library_id": null
+  },
+  {
+    "title": "Geschichts Denken im 20. Jahrhundert",
+    "author": "Ernst Nolte",
+    "library_id": "01 A -2002- 9824"
+  },
+  {
+    "title": "Antisemitismus und Fremdenfeindlichkeit Förderung der Demokratie",
+    "author": null,
+    "library_id": null
+  },
+  {
+    "title": "Schüler Duden",
+    "author": null,
+    "library_id": null
+  },
+  {
+    "title": "Tiere Biologie",
+    "author": null,
+    "library_id": null
+  }
+]
+```
+
+
 
 ## Ex: library as dataset curator
 
