@@ -140,6 +140,8 @@ we can read and understand.
 * toolkits existed before, e.g. [Apache Tika](https://tika.apache.org/)
 * newer libraries: [docling](https://github.com/docling-project/docling), [markitdown](https://github.com/microsoft/markitdown)
 
+![](static/screenshot-2025-05-20-100654-glow.png)
+
 There is a drift towards preparing X for LLM, e.g. [gitingest](https://gitingest.com/), and surely many more
 
 ## Ex: metadata conversion utilities
