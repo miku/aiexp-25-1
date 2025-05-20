@@ -34,7 +34,7 @@ And going back to 1989:
 ![](static/screenshot-2025-05-19-161147-attention-is-all-you-need.png)
 
 The paper that ignited the current LLM developments was published in 2017
-(2017-06-12, 2899 days ago) and has as of 2025-05-19 180523 citations accroding
+(2017-06-12, 2899 days ago) and has as of 2025-05-19 180523 citations according
 to [Google
 Scholar](https://scholar.google.com/scholar?q=Attention+is+all+you+need). On
 average 62 citations of this paper per day.
@@ -285,7 +285,7 @@ A similar approach we use for [Internet Archive Scholar](https://scholar.archive
 
 ## Ex: library as dataset curator
 
-* GLAM data is already available, cf. [Coding da Vinci](https://codingdavinci.de/) ([2018 an der UB](https://blog.ub.uni-leipzig.de/tag/coding-da-vinci/))
+* GLAM data is already available, cf. [Coding da Vinci](https://codingdavinci.de/) ([2018 an der UB](https://blog.ub.uni-leipzig.de/tag/coding-da-vinci/), [data](https://codingdavinci.de/de/daten))
 * images, text, metadata, data/image pairs, annotated images and more
 
 ## Ideas
