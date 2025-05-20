@@ -110,9 +110,9 @@ vector of intent, though the intent itself remained stubbornly unreadable.
 * [x] brainstorming (e.g. for workshop themes)
 
 We mostly do not generate images, nor raw text. We have enough images, and we
-can and enjoy writing for our audience. Generated text can be shallow. More
-code is not better, less code is better. We do not want to write more code than
-we can read and understand.
+can write and enjoy addressing our audience. Generated text can be shallow.
+More code is not better, less code is better. We do not want to write more code
+than we can read and understand.
 
 Similar to: [Bibliotheken und KI](https://bibliotheksportal.de/ressourcen/digitale-services/bibliotheken-und-ki/)
 
