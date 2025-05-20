@@ -6,9 +6,9 @@
 
 Generative AI is experimental and, compared to classical software, less
 controllable (probabilistic); for everything that requires exact data and
-transactions, it is initially not suitable.
+transactions, it is initially not a substitute.
 
-> The more it [the AI model] reasons, the more unpredictable it becomes." - Ilya Sutskever, NeurIPS 2024
+> The more it [the AI model] reasons, the more unpredictable it becomes." - Ilya Sutskever, [NeurIPS 2024](https://youtu.be/1yvBqasHLZs?si=g5LmpHX7lPbjtH8U&t=869)
 
 Random publication: [Generating Text with RNN](https://icml.cc/2011/papers/524_icmlpaper.pdf), 2011, Experiments
 
