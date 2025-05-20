@@ -50,7 +50,7 @@ reading research that would refer to this one paper alone.
 > Dangers of AI Hype in the Research
 > Community](https://arxiv.org/pdf/2408.15244) (2024)
 
-FF.
+### More about hype and benchmarks
 
 > Designing effective and robust benchmark data sets for AI models is a
 > challenging task, and mischaracterizing what a benchmark is designed to do is
@@ -62,6 +62,8 @@ See also: [benchmarks](https://huggingface.co/spaces/open-llm-leaderboard/open_l
 form for evaluating LLMs based on human pref- erences. Our methodology employs
 a pairwise comparison approach and leverages input from a diverse user base
 through crowdsourcing -- [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/pdf/2403.04132)
+
+![](static/screenshot-2025-05-20-093326-chatbot-arena-ub.png)
 
 Final question, do you remember [Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085)?
 
@@ -117,24 +119,47 @@ we can read and understand.
 
 ![](static/screenshot-2025-05-19-160823-workshops-ubl.png)
 
-## Exploratory use cases
+## Exploratory use cases (Ex)
 
 * [ ] optical character recognition (OCR)
 * [ ] handwritten character recognition (HTR)
 * [ ] metadata conversions utilities
+* [ ] code refactoring
 * [ ] structured data extraction
 * [ ] library as AI dataset curator
 
 ## Adjacent developments
 
-* AI assisted search research tools and interfaces
+* AI assisted search research tools and interfaces, cf. [Review of Scopus AI](https://scholarlykitchen.sspnet.org/2024/02/21/guest-post-there-is-more-to-reliable-chatbots-than-providing-scientific-references-the-case-of-scopusai/)
 * AI use of publishers, cf. [Publishers are selling papers to train AIs — and making millions of dollars](https://www.nature.com/articles/d41586-024-04018-5), $10M, $23M, ...
-* open weights models hosted by public institutions for general use
+* open weights models hosted by public institutions for general use, [Chat-AI](https://docs.hpc.gwdg.de/services/chat-ai/index.html)
 
-## Exploratory: document parsing
+## Ex: document parsing (ocr, htr)
 
 * preparing text documents to feed into LLM became a major problem
 * toolkits existed before, e.g. [Apache Tika](https://tika.apache.org/)
+* newer libraries: [docling](https://github.com/docling-project/docling), [markitdown](https://github.com/microsoft/markitdown)
+
+There is a drift towards preparing X for LLM, e.g. [gitingest](https://gitingest.com/), and surely many more
+
+## Ex: metadata conversion utilities
+
+Given examples of input and output data pairs, write a program that converts one schema to another.
+
+## Ex: code refactoring
+
+Latest feature, added zstd support for [metha](https://github.com/ubleipzig/metha), a metadata harvesting tool.
+
+![](static/screenshot-2025-05-20-094954-metha.png)
+
+## Ex: structured data extraction
+
+Example parsing references from raw strings using local models: [unstructured](https://github.com/miku/localmodels/tree/main/tasks/unstructured)
+
+## Ex: library as dataset curator
+
+* GLAM data is already available, cf. [Coding da Vinci](https://codingdavinci.de/) ([2018 an der UB](https://blog.ub.uni-leipzig.de/tag/coding-da-vinci/))
+* images, text, metadata, data/image pairs, annotated images and more
 
 ## Ideas
 
@@ -155,8 +180,6 @@ desktop client application, e.g. open source
 [ChatBox](https://chatboxai.app/en), [LM studio](https://lmstudio.ai/), ...
 
 > Q: What application do you use?
-
-## Future Tasks
 
 ### Custom Benchmarks
 
