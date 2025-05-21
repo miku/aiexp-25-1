@@ -67,7 +67,8 @@ through crowdsourcing -- [Chatbot Arena: An Open Platform for Evaluating LLMs by
 
 [![](static/screenshot-2025-05-20-093326-chatbot-arena-ub.png)](https://lmarena.ai/)
 
-Final question, do you remember [Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085)?
+One more question, do you remember [Galactica: A Large Language Model for
+Science](https://arxiv.org/abs/2211.09085)?
 
 > Information overload is a major obstacle to scientific progress. The
 > explosive growth in scientific literature and data has made it ever harder to
