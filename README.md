@@ -31,9 +31,9 @@ And going back to 1989:
 
 ## The race and hype
 
-![](static/screenshot-2025-05-19-161147-attention-is-all-you-need.png)
+[![](static/screenshot-2025-05-19-161147-attention-is-all-you-need.png)](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 
-The paper that ignited the current LLM developments was published in 2017
+The [paper](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) that ignited the current LLM developments was published in 2017
 (2017-06-12, 2899 days ago) and has as of 2025-05-19 180523 citations according
 to [Google
 Scholar](https://scholar.google.com/scholar?q=Attention+is+all+you+need). On
