@@ -156,7 +156,9 @@ TIL: Iterationskompetenz
 
 ![](static/screenshot-2025-05-20-100654-glow.png)
 
-There is a drift towards preparing X for LLM, e.g. [gitingest](https://gitingest.com/), and surely many more
+There is a drift towards "anything to llm", to prepare a variety of content for
+a "prompt", e.g. [gitingest](https://gitingest.com/),
+[repomix](https://repomix.com/) for code repositories, ...
 
 ## Exp: metadata conversion utilities
 
