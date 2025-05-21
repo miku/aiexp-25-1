@@ -133,7 +133,7 @@ TIL: Iterationskompetenz
 
 ![](static/screenshot-2025-05-19-160823-workshops-ubl.png)
 
-## Exploratory use cases (Ex)
+## Exploratory use cases (Exp)
 
 * [ ] optical character recognition (OCR)
 * [ ] handwritten character recognition (HTR)
@@ -148,7 +148,7 @@ TIL: Iterationskompetenz
 * AI use of publishers, cf. [Publishers are selling papers to train AIs — and making millions of dollars](https://www.nature.com/articles/d41586-024-04018-5), $10M, $23M, ...
 * open weights models hosted by public institutions for general use, [Chat-AI](https://docs.hpc.gwdg.de/services/chat-ai/index.html)
 
-## Ex: document parsing (ocr, htr)
+## Exp: document parsing (ocr, htr)
 
 * preparing text documents to feed into LLM became a major problem
 * toolkits existed before, e.g. [Apache Tika](https://tika.apache.org/)
@@ -158,17 +158,17 @@ TIL: Iterationskompetenz
 
 There is a drift towards preparing X for LLM, e.g. [gitingest](https://gitingest.com/), and surely many more
 
-## Ex: metadata conversion utilities
+## Exp: metadata conversion utilities
 
 Given examples of input and output data pairs, write a program that converts one schema to another.
 
-## Ex: code refactoring
+## Exp: code refactoring
 
 Latest feature, added zstd support for [metha](https://github.com/ubleipzig/metha), a metadata harvesting tool.
 
 ![](static/screenshot-2025-05-20-094954-metha.png)
 
-## Ex: structured data extraction
+## Exp: structured data extraction
 
 ### Unstructured references
 
@@ -286,7 +286,7 @@ A similar approach we use for [Internet Archive Scholar](https://scholar.archive
 
 
 
-## Ex: library as dataset curator
+## Exp: library as dataset curator
 
 * GLAM data is already available, cf. [Coding da Vinci](https://codingdavinci.de/) ([2018 an der UB](https://blog.ub.uni-leipzig.de/tag/coding-da-vinci/), [data](https://codingdavinci.de/de/daten))
 * images, text, metadata, data/image pairs, annotated images and more
