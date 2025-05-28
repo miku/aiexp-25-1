@@ -136,7 +136,7 @@ TIL: Iterationskompetenz
 ## Exploratory use cases (Exp)
 
 * [ ] optical character recognition (OCR)
-* [ ] handwritten character recognition (HTR)
+* [ ] handwritten text recognition (HTR)
 * [ ] metadata conversions utilities
 * [ ] code refactoring
 * [ ] structured data extraction
