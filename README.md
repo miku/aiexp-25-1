@@ -131,7 +131,7 @@ TIL: Iterationskompetenz
 * [x] meetups for [broader audience](https://www.ub.uni-leipzig.de/service/workshops-und-online-tutorials/schulungen/ki-stammtisch), and staff
 * [x] [workshops](https://www.ub.uni-leipzig.de/service/workshops-und-online-tutorials) for students, researchers
 
-![](static/screenshot-2025-05-19-160823-workshops-ubl.png)
+[![](static/screenshot-2025-05-19-160823-workshops-ubl.png)](https://www.ub.uni-leipzig.de/service/workshops-und-online-tutorials)
 
 ## Exploratory use cases (Exp)
 
