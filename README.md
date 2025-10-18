@@ -90,7 +90,7 @@ The paper dates from 2022-11-16, [two weeks before](https://en.wikipedia.org/wik
 > survived only three days
 > online](https://www.technologyreview.com/2022/11/18/1063487/meta-large-language-model-ai-only-survived-three-days-gpt-3-science/)
 > (2022-11-18); cf. [Meta Galactica
-> eingestellt](https://www.zdnet.de/88405189/meta-galactica-eingestellt/)
+> eingestellt](http://web.archive.org/web/20250328055224/https://www.zdnet.de/88405189/meta-galactica-eingestellt/)
 
 ## Context switch
 
