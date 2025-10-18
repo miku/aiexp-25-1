@@ -158,7 +158,7 @@ TIL: Iterationskompetenz
 
 There is a drift towards "anything to llm", to prepare a variety of content for
 a "prompt", e.g. [gitingest](https://gitingest.com/),
-[repomix](https://repomix.com/) for code repositories, ...
+[repomix](https://repomix.com/), [repoctx](https://github.com/miku/repoctx) for code repositories, ...
 
 ## Exp: metadata conversion utilities
 
